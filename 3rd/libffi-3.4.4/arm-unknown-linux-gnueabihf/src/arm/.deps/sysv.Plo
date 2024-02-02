@@ -1,0 +1,16 @@
+src/arm/sysv.lo: ../src/arm/sysv.S \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h \
+ fficonfig.h include/ffi.h include/ffitarget.h ../include/ffi_cfi.h \
+ ../src/arm/internal.h
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h:
+
+fficonfig.h:
+
+include/ffi.h:
+
+include/ffitarget.h:
+
+../include/ffi_cfi.h:
+
+../src/arm/internal.h:

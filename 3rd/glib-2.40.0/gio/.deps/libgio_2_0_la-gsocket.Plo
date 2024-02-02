@@ -1,0 +1,772 @@
+libgio_2_0_la-gsocket.lo: gsocket.c \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h \
+ ../config.h gsocket.h ../gio/giotypes.h ../gio/gioenums.h \
+ ../glib/glib-object.h ../gobject/gbinding.h ../glib/glib.h \
+ ../glib/galloca.h ../glib/gtypes.h ../glib/glibconfig.h \
+ ../glib/gmacros.h \
+ /opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/include/stddef.h \
+ /opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/include-fixed/limits.h \
+ /opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/include-fixed/syslimits.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/limits.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/libc-header-start.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/features.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/sys/cdefs.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/wordsize.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/long-double.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/gnu/stubs.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/gnu/stubs-hard.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/posix1_lim.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/local_lim.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/linux/limits.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/posix2_lim.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/xopen_lim.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/uio_lim.h \
+ /opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/include/float.h \
+ ../glib/gversionmacros.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/time.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/time.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/timesize.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/typesizes.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/time64.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/timex.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_timeval.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/clock_t.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/time_t.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_tm.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_timespec.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/clockid_t.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/timer_t.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_itimerspec.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/locale_t.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/__locale_t.h \
+ ../glib/garray.h ../glib/gasyncqueue.h ../glib/gthread.h \
+ ../glib/gatomic.h ../glib/gerror.h \
+ /opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/include/stdarg.h \
+ ../glib/gquark.h ../glib/gbacktrace.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/signal.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/signum.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/signum-generic.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/sig_atomic_t.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/sigset_t.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/__sigset_t.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/siginfo_t.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/__sigval_t.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/siginfo-arch.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/siginfo-consts.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/siginfo-consts-arch.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/sigval_t.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/sigevent_t.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/sigevent-consts.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/sigaction.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/sigcontext.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/asm/sigcontext.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/stack_t.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/sys/ucontext.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/sigstack.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/ss_flags.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_sigstack.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/pthreadtypes.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/thread-shared-types.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/pthreadtypes-arch.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/endian.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/endian.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/byteswap.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/uintn-identity.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/sigthread.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/signal_ext.h \
+ ../glib/gbase64.h ../glib/gbitlock.h ../glib/gbookmarkfile.h \
+ ../glib/gbytes.h ../glib/gcharset.h ../glib/gchecksum.h \
+ ../glib/gconvert.h ../glib/gdataset.h ../glib/gdate.h \
+ ../glib/gdatetime.h ../glib/gtimezone.h ../glib/gdir.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/dirent.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/dirent.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/dirent_ext.h \
+ ../glib/genviron.h ../glib/gfileutils.h ../glib/ggettext.h \
+ ../glib/ghash.h ../glib/glist.h ../glib/gmem.h ../glib/gnode.h \
+ ../glib/ghmac.h ../glib/gchecksum.h ../glib/ghook.h ../glib/ghostutils.h \
+ ../glib/giochannel.h ../glib/gmain.h ../glib/gpoll.h ../glib/gslist.h \
+ ../glib/gstring.h ../glib/gunicode.h ../glib/gutils.h ../glib/gkeyfile.h \
+ ../glib/gmappedfile.h ../glib/gmarkup.h ../glib/gmessages.h \
+ ../glib/goption.h ../glib/gpattern.h ../glib/gprimes.h ../glib/gqsort.h \
+ ../glib/gqueue.h ../glib/grand.h ../glib/gregex.h ../glib/gscanner.h \
+ ../glib/gsequence.h ../glib/gshell.h ../glib/gslice.h ../glib/gspawn.h \
+ ../glib/gstrfuncs.h ../glib/gstringchunk.h ../glib/gtestutils.h \
+ ../glib/gthreadpool.h ../glib/gtimer.h ../glib/gtrashstack.h \
+ ../glib/gtree.h ../glib/gurifuncs.h ../glib/gvarianttype.h \
+ ../glib/gvariant.h ../glib/gversion.h ../glib/deprecated/gallocator.h \
+ ../glib/deprecated/gcache.h ../glib/deprecated/gcompletion.h \
+ ../glib/deprecated/gmain.h ../glib/deprecated/grel.h \
+ ../glib/deprecated/gthread.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/sys/types.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/stdint-intn.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/sys/select.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/select.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/pthread.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/sched.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/sched.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_sched_param.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/cpu-set.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/setjmp.h \
+ ../gobject/gobject.h ../gobject/gtype.h ../gobject/gvalue.h \
+ ../gobject/gparam.h ../gobject/gclosure.h ../gobject/gsignal.h \
+ ../gobject/gmarshal.h ../gobject/gboxed.h ../gobject/glib-types.h \
+ ../gobject/genums.h ../gobject/gparamspecs.h ../gobject/gsourceclosure.h \
+ ../gobject/gtypemodule.h ../gobject/gtypeplugin.h \
+ ../gobject/gvaluearray.h ../gobject/gvaluetypes.h ../glib/glib-unix.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/unistd.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/posix_opt.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/environments.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/confname.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/getopt_posix.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/getopt_core.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/unistd_ext.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/errno.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/errno.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/linux/errno.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/asm/errno.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/asm-generic/errno.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/asm-generic/errno-base.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/error_t.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/sys/wait.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/waitflags.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/waitstatus.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/stdlib.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/floatn.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/floatn-common.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/alloca.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/stdlib-bsearch.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/stdlib-float.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/fcntl.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/fcntl.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/fcntl-linux.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_iovec.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/linux/falloc.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/stat.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/string.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/strings.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/sys/ioctl.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/ioctls.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/asm/ioctls.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/asm-generic/ioctls.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/linux/ioctl.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/asm/ioctl.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/asm-generic/ioctl.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/ioctl-types.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/sys/ttydefaults.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/sys/uio.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/uio-ext.h \
+ gcancellable.h gioenumtypes.h ginetaddress.h ginitable.h gioerror.h \
+ gioenums.h gnetworkingprivate.h gnetworking.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/netdb.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/netinet/in.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/stdint-uintn.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/sys/socket.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/socket.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/socket_type.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/sockaddr.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/asm/socket.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/asm-generic/socket.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/asm/sockios.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/asm-generic/sockios.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_osockaddr.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/in.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/rpc/netdb.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/netdb.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/netinet/tcp.h \
+ /opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/include/stdint.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/stdint.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/wchar.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/resolv.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/sys/param.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/param.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/linux/param.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/asm/param.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/asm-generic/param.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/stdio.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/__fpos_t.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/__mbstate_t.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/__fpos64_t.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/__FILE.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/FILE.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_FILE.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/cookie_io_functions_t.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/stdio_lim.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/sys_errlist.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/stdio.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/arpa/nameser.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/arpa/nameser_compat.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/res_state.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/sys/un.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/net/if.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/arpa/inet.h \
+ gsocketaddress.h gsocketcontrolmessage.h gcredentials.h \
+ gcredentialsprivate.h ../gio/gcredentials.h ../gio/gnetworking.h \
+ ../glib/glibintl.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/libintl.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/locale.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/locale.h
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h:
+
+../config.h:
+
+gsocket.h:
+
+../gio/giotypes.h:
+
+../gio/gioenums.h:
+
+../glib/glib-object.h:
+
+../gobject/gbinding.h:
+
+../glib/glib.h:
+
+../glib/galloca.h:
+
+../glib/gtypes.h:
+
+../glib/glibconfig.h:
+
+../glib/gmacros.h:
+
+/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/include/stddef.h:
+
+/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/include-fixed/limits.h:
+
+/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/include-fixed/syslimits.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/limits.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/libc-header-start.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/features.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/sys/cdefs.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/wordsize.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/long-double.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/gnu/stubs.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/gnu/stubs-hard.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/posix1_lim.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/local_lim.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/linux/limits.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/posix2_lim.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/xopen_lim.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/uio_lim.h:
+
+/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/include/float.h:
+
+../glib/gversionmacros.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/time.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/time.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/timesize.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/typesizes.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/time64.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/timex.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_timeval.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/clock_t.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/time_t.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_tm.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_timespec.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/clockid_t.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/timer_t.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_itimerspec.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/locale_t.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/__locale_t.h:
+
+../glib/garray.h:
+
+../glib/gasyncqueue.h:
+
+../glib/gthread.h:
+
+../glib/gatomic.h:
+
+../glib/gerror.h:
+
+/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/include/stdarg.h:
+
+../glib/gquark.h:
+
+../glib/gbacktrace.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/signal.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/signum.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/signum-generic.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/sig_atomic_t.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/sigset_t.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/__sigset_t.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/siginfo_t.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/__sigval_t.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/siginfo-arch.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/siginfo-consts.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/siginfo-consts-arch.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/sigval_t.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/sigevent_t.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/sigevent-consts.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/sigaction.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/sigcontext.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/asm/sigcontext.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/stack_t.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/sys/ucontext.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/sigstack.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/ss_flags.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_sigstack.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/pthreadtypes.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/thread-shared-types.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/pthreadtypes-arch.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/endian.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/endian.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/byteswap.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/uintn-identity.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/sigthread.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/signal_ext.h:
+
+../glib/gbase64.h:
+
+../glib/gbitlock.h:
+
+../glib/gbookmarkfile.h:
+
+../glib/gbytes.h:
+
+../glib/gcharset.h:
+
+../glib/gchecksum.h:
+
+../glib/gconvert.h:
+
+../glib/gdataset.h:
+
+../glib/gdate.h:
+
+../glib/gdatetime.h:
+
+../glib/gtimezone.h:
+
+../glib/gdir.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/dirent.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/dirent.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/dirent_ext.h:
+
+../glib/genviron.h:
+
+../glib/gfileutils.h:
+
+../glib/ggettext.h:
+
+../glib/ghash.h:
+
+../glib/glist.h:
+
+../glib/gmem.h:
+
+../glib/gnode.h:
+
+../glib/ghmac.h:
+
+../glib/gchecksum.h:
+
+../glib/ghook.h:
+
+../glib/ghostutils.h:
+
+../glib/giochannel.h:
+
+../glib/gmain.h:
+
+../glib/gpoll.h:
+
+../glib/gslist.h:
+
+../glib/gstring.h:
+
+../glib/gunicode.h:
+
+../glib/gutils.h:
+
+../glib/gkeyfile.h:
+
+../glib/gmappedfile.h:
+
+../glib/gmarkup.h:
+
+../glib/gmessages.h:
+
+../glib/goption.h:
+
+../glib/gpattern.h:
+
+../glib/gprimes.h:
+
+../glib/gqsort.h:
+
+../glib/gqueue.h:
+
+../glib/grand.h:
+
+../glib/gregex.h:
+
+../glib/gscanner.h:
+
+../glib/gsequence.h:
+
+../glib/gshell.h:
+
+../glib/gslice.h:
+
+../glib/gspawn.h:
+
+../glib/gstrfuncs.h:
+
+../glib/gstringchunk.h:
+
+../glib/gtestutils.h:
+
+../glib/gthreadpool.h:
+
+../glib/gtimer.h:
+
+../glib/gtrashstack.h:
+
+../glib/gtree.h:
+
+../glib/gurifuncs.h:
+
+../glib/gvarianttype.h:
+
+../glib/gvariant.h:
+
+../glib/gversion.h:
+
+../glib/deprecated/gallocator.h:
+
+../glib/deprecated/gcache.h:
+
+../glib/deprecated/gcompletion.h:
+
+../glib/deprecated/gmain.h:
+
+../glib/deprecated/grel.h:
+
+../glib/deprecated/gthread.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/sys/types.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/stdint-intn.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/sys/select.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/select.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/pthread.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/sched.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/sched.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_sched_param.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/cpu-set.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/setjmp.h:
+
+../gobject/gobject.h:
+
+../gobject/gtype.h:
+
+../gobject/gvalue.h:
+
+../gobject/gparam.h:
+
+../gobject/gclosure.h:
+
+../gobject/gsignal.h:
+
+../gobject/gmarshal.h:
+
+../gobject/gboxed.h:
+
+../gobject/glib-types.h:
+
+../gobject/genums.h:
+
+../gobject/gparamspecs.h:
+
+../gobject/gsourceclosure.h:
+
+../gobject/gtypemodule.h:
+
+../gobject/gtypeplugin.h:
+
+../gobject/gvaluearray.h:
+
+../gobject/gvaluetypes.h:
+
+../glib/glib-unix.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/unistd.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/posix_opt.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/environments.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/confname.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/getopt_posix.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/getopt_core.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/unistd_ext.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/errno.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/errno.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/linux/errno.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/asm/errno.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/asm-generic/errno.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/asm-generic/errno-base.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/error_t.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/sys/wait.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/waitflags.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/waitstatus.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/stdlib.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/floatn.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/floatn-common.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/alloca.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/stdlib-bsearch.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/stdlib-float.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/fcntl.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/fcntl.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/fcntl-linux.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_iovec.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/linux/falloc.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/stat.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/string.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/strings.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/sys/ioctl.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/ioctls.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/asm/ioctls.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/asm-generic/ioctls.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/linux/ioctl.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/asm/ioctl.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/asm-generic/ioctl.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/ioctl-types.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/sys/ttydefaults.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/sys/uio.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/uio-ext.h:
+
+gcancellable.h:
+
+gioenumtypes.h:
+
+ginetaddress.h:
+
+ginitable.h:
+
+gioerror.h:
+
+gioenums.h:
+
+gnetworkingprivate.h:
+
+gnetworking.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/netdb.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/netinet/in.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/stdint-uintn.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/sys/socket.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/socket.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/socket_type.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/sockaddr.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/asm/socket.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/asm-generic/socket.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/asm/sockios.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/asm-generic/sockios.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_osockaddr.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/in.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/rpc/netdb.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/netdb.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/netinet/tcp.h:
+
+/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/include/stdint.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/stdint.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/wchar.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/resolv.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/sys/param.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/param.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/linux/param.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/asm/param.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/asm-generic/param.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/stdio.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/__fpos_t.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/__mbstate_t.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/__fpos64_t.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/__FILE.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/FILE.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_FILE.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/cookie_io_functions_t.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/stdio_lim.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/sys_errlist.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/stdio.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/arpa/nameser.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/arpa/nameser_compat.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/res_state.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/sys/un.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/net/if.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/arpa/inet.h:
+
+gsocketaddress.h:
+
+gsocketcontrolmessage.h:
+
+gcredentials.h:
+
+gcredentialsprivate.h:
+
+../gio/gcredentials.h:
+
+../gio/gnetworking.h:
+
+../glib/glibintl.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/libintl.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/locale.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/locale.h:

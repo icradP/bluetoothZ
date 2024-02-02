@@ -1,0 +1,985 @@
+The system is: Linux - 5.15.133.1-microsoft-standard-WSL2 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6f123/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6f123.dir/build.make CMakeFiles/cmTC_6f123.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6f123.dir/CMakeCCompilerABI.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc   -v -o CMakeFiles/cmTC_6f123.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc
+Target: arm-linux-gnueabihf
+Configured with: '/home/meng/toolchain/build/snapshots/gcc.git~gcc-9_1_0-release/configure' SHELL=/bin/bash --with-mpc=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-fpu=vfpv3-d16 --with-mode=thumb --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-build-sysroot=/home/meng/toolchain/build/sysroots/arm-linux-gnueabihf --with-sysroot=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=yes --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu
+Thread model: posix
+gcc version 9.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6f123.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
+ /opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/cc1 -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf -iprefix /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/ -isysroot /opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mfloat-abi=hard -mfpu=vfpv3-d16 -mthumb -mtls-dialect=gnu -march=armv7-a+fp -auxbase-strip CMakeFiles/cmTC_6f123.dir/CMakeCCompilerABI.c.o -version -o /tmp/cczRAk5o.s
+GNU C17 (GCC) version 9.1.0 (arm-linux-gnueabihf)
+	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring duplicate directory "/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/9.1.0/include"
+ignoring nonexistent directory "/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/local/include/arm-linux-gnueabihf"
+ignoring nonexistent directory "/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/local/include"
+ignoring duplicate directory "/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/9.1.0/include-fixed"
+ignoring duplicate directory "/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/include"
+ignoring nonexistent directory "/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/include
+ /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/include-fixed
+ /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/include
+ /opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/include
+End of search list.
+GNU C17 (GCC) version 9.1.0 (arm-linux-gnueabihf)
+	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: 7a352967ebcb612655fd990a1ba214d4
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6f123.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
+ /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -meabi=5 -o CMakeFiles/cmTC_6f123.dir/CMakeCCompilerABI.c.o /tmp/cczRAk5o.s
+GNU assembler version 2.33 (arm-linux-gnueabihf) using BFD version (Linaro_Binutils-2020.07.23) 2.33
+COMPILER_PATH=/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/:/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/:/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/lib/:/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/lib/:/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6f123.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
+Linking C executable cmTC_6f123
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f123.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc  -v -rdynamic CMakeFiles/cmTC_6f123.dir/CMakeCCompilerABI.c.o -o cmTC_6f123 
+Using built-in specs.
+COLLECT_GCC=/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc
+COLLECT_LTO_WRAPPER=/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/lto-wrapper
+Target: arm-linux-gnueabihf
+Configured with: '/home/meng/toolchain/build/snapshots/gcc.git~gcc-9_1_0-release/configure' SHELL=/bin/bash --with-mpc=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-fpu=vfpv3-d16 --with-mode=thumb --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-build-sysroot=/home/meng/toolchain/build/sysroots/arm-linux-gnueabihf --with-sysroot=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=yes --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu
+Thread model: posix
+gcc version 9.1.0 (GCC) 
+COMPILER_PATH=/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/:/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/:/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/lib/:/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/lib/:/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6f123'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
+ /opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/collect2 -plugin /opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/liblto_plugin.so -plugin-opt=/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccX76FZy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_6f123 /opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/crtbegin.o -L/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0 -L/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf -L/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc -L/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/lib -L/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/lib -L/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_6f123.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/crtend.o /opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6f123'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/include]
+    add: [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/include-fixed]
+    add: [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/include]
+    add: [/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/include]
+  end of search list found
+  collapse include dir [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/include] ==> [/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/include]
+  collapse include dir [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/include-fixed] ==> [/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/include-fixed]
+  collapse include dir [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/include] ==> [/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/include]
+  collapse include dir [/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/include] ==> [/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include]
+  implicit include dirs: [/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/include;/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/include-fixed;/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/include;/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6f123/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6f123.dir/build.make CMakeFiles/cmTC_6f123.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_6f123.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc   -v -o CMakeFiles/cmTC_6f123.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: '/home/meng/toolchain/build/snapshots/gcc.git~gcc-9_1_0-release/configure' SHELL=/bin/bash --with-mpc=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-fpu=vfpv3-d16 --with-mode=thumb --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-build-sysroot=/home/meng/toolchain/build/sysroots/arm-linux-gnueabihf --with-sysroot=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=yes --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.1.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6f123.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp']
+  ignore line: [ /opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/cc1 -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf -iprefix /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/ -isysroot /opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mfloat-abi=hard -mfpu=vfpv3-d16 -mthumb -mtls-dialect=gnu -march=armv7-a+fp -auxbase-strip CMakeFiles/cmTC_6f123.dir/CMakeCCompilerABI.c.o -version -o /tmp/cczRAk5o.s]
+  ignore line: [GNU C17 (GCC) version 9.1.0 (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 5.4.0 20160609  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.3  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096]
+  ignore line: [ignoring duplicate directory "/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/9.1.0/include"]
+  ignore line: [ignoring nonexistent directory "/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/local/include/arm-linux-gnueabihf"]
+  ignore line: [ignoring nonexistent directory "/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/9.1.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/include"]
+  ignore line: [ignoring nonexistent directory "/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/include]
+  ignore line: [ /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/include-fixed]
+  ignore line: [ /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/include]
+  ignore line: [ /opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 9.1.0 (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 5.4.0 20160609  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.3  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096]
+  ignore line: [Compiler executable checksum: 7a352967ebcb612655fd990a1ba214d4]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6f123.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp']
+  ignore line: [ /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -meabi=5 -o CMakeFiles/cmTC_6f123.dir/CMakeCCompilerABI.c.o /tmp/cczRAk5o.s]
+  ignore line: [GNU assembler version 2.33 (arm-linux-gnueabihf) using BFD version (Linaro_Binutils-2020.07.23) 2.33]
+  ignore line: [COMPILER_PATH=/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/:/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/:/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/lib/:/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/lib/:/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6f123.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp']
+  ignore line: [Linking C executable cmTC_6f123]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f123.dir/link.txt --verbose=1]
+  ignore line: [/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc  -v -rdynamic CMakeFiles/cmTC_6f123.dir/CMakeCCompilerABI.c.o -o cmTC_6f123 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: '/home/meng/toolchain/build/snapshots/gcc.git~gcc-9_1_0-release/configure' SHELL=/bin/bash --with-mpc=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-fpu=vfpv3-d16 --with-mode=thumb --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-build-sysroot=/home/meng/toolchain/build/sysroots/arm-linux-gnueabihf --with-sysroot=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=yes --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.1.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/:/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/:/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/lib/:/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/lib/:/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6f123'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp']
+  link line: [ /opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/collect2 -plugin /opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/liblto_plugin.so -plugin-opt=/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccX76FZy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_6f123 /opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/crtbegin.o -L/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0 -L/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf -L/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc -L/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/lib -L/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/lib -L/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_6f123.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/crtend.o /opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o]
+    arg [/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccX76FZy.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_6f123] ==> ignore
+    arg [/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o] ==> obj [/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o]
+    arg [/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o] ==> obj [/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o]
+    arg [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/crtbegin.o] ==> obj [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/crtbegin.o]
+    arg [-L/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0] ==> dir [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0]
+    arg [-L/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf] ==> dir [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf]
+    arg [-L/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc] ==> dir [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc]
+    arg [-L/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/lib] ==> dir [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/lib]
+    arg [-L/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/lib] ==> dir [/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/lib]
+    arg [-L/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> dir [/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib]
+    arg [CMakeFiles/cmTC_6f123.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/crtend.o] ==> obj [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/crtend.o]
+    arg [/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o] ==> obj [/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o]
+  collapse obj [/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o] ==> [/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/lib/crt1.o]
+  collapse obj [/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o] ==> [/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/lib/crti.o]
+  collapse obj [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/crtbegin.o] ==> [/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/crtbegin.o]
+  collapse obj [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/crtend.o] ==> [/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/crtend.o]
+  collapse obj [/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o] ==> [/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/lib/crtn.o]
+  collapse library dir [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0] ==> [/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0]
+  collapse library dir [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf] ==> [/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf]
+  collapse library dir [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc] ==> [/opt/gcc-sigmastar-9.1.0/lib/gcc]
+  collapse library dir [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/lib] ==> [/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/lib]
+  collapse library dir [/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/lib] ==> [/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/lib]
+  collapse library dir [/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> [/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/lib/crt1.o;/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/lib/crti.o;/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/crtbegin.o;/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/crtend.o;/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/lib/crtn.o]
+  implicit dirs: [/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0;/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf;/opt/gcc-sigmastar-9.1.0/lib/gcc;/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/lib;/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/lib;/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_46db0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_46db0.dir/build.make CMakeFiles/cmTC_46db0.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_46db0.dir/CMakeCXXCompilerABI.cpp.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-g++   -v -o CMakeFiles/cmTC_46db0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-g++
+Target: arm-linux-gnueabihf
+Configured with: '/home/meng/toolchain/build/snapshots/gcc.git~gcc-9_1_0-release/configure' SHELL=/bin/bash --with-mpc=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-fpu=vfpv3-d16 --with-mode=thumb --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-build-sysroot=/home/meng/toolchain/build/sysroots/arm-linux-gnueabihf --with-sysroot=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=yes --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu
+Thread model: posix
+gcc version 9.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_46db0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
+ /opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/cc1plus -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf -iprefix /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/ -isysroot /opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mfloat-abi=hard -mfpu=vfpv3-d16 -mthumb -mtls-dialect=gnu -march=armv7-a+fp -auxbase-strip CMakeFiles/cmTC_46db0.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccauhyZB.s
+GNU C++14 (GCC) version 9.1.0 (arm-linux-gnueabihf)
+	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring duplicate directory "/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/include/c++/9.1.0"
+ignoring duplicate directory "/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/include/c++/9.1.0/arm-linux-gnueabihf/."
+ignoring duplicate directory "/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/include/c++/9.1.0/backward"
+ignoring duplicate directory "/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/9.1.0/include"
+ignoring nonexistent directory "/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/local/include/arm-linux-gnueabihf"
+ignoring nonexistent directory "/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/local/include"
+ignoring duplicate directory "/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/9.1.0/include-fixed"
+ignoring duplicate directory "/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/include"
+ignoring nonexistent directory "/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/include/c++/9.1.0
+ /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/include/c++/9.1.0/arm-linux-gnueabihf/.
+ /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/include/c++/9.1.0/backward
+ /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/include
+ /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/include-fixed
+ /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/include
+ /opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/include
+End of search list.
+GNU C++14 (GCC) version 9.1.0 (arm-linux-gnueabihf)
+	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: a0a4ce6af32138726b490c28d3d49e46
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_46db0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
+ /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -meabi=5 -o CMakeFiles/cmTC_46db0.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccauhyZB.s
+GNU assembler version 2.33 (arm-linux-gnueabihf) using BFD version (Linaro_Binutils-2020.07.23) 2.33
+COMPILER_PATH=/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/:/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/:/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/lib/:/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/lib/:/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_46db0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
+Linking CXX executable cmTC_46db0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46db0.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-g++  -v -rdynamic CMakeFiles/cmTC_46db0.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_46db0 
+Using built-in specs.
+COLLECT_GCC=/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-g++
+COLLECT_LTO_WRAPPER=/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/lto-wrapper
+Target: arm-linux-gnueabihf
+Configured with: '/home/meng/toolchain/build/snapshots/gcc.git~gcc-9_1_0-release/configure' SHELL=/bin/bash --with-mpc=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-fpu=vfpv3-d16 --with-mode=thumb --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-build-sysroot=/home/meng/toolchain/build/sysroots/arm-linux-gnueabihf --with-sysroot=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=yes --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu
+Thread model: posix
+gcc version 9.1.0 (GCC) 
+COMPILER_PATH=/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/:/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/:/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/lib/:/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/lib/:/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_46db0' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
+ /opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/collect2 -plugin /opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/liblto_plugin.so -plugin-opt=/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXDwsH6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_46db0 /opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/crtbegin.o -L/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0 -L/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf -L/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc -L/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/lib -L/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/lib -L/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_46db0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/crtend.o /opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_46db0' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/include/c++/9.1.0]
+    add: [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/include/c++/9.1.0/arm-linux-gnueabihf/.]
+    add: [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/include/c++/9.1.0/backward]
+    add: [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/include]
+    add: [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/include-fixed]
+    add: [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/include]
+    add: [/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/include]
+  end of search list found
+  collapse include dir [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/include/c++/9.1.0] ==> [/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/include/c++/9.1.0]
+  collapse include dir [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/include/c++/9.1.0/arm-linux-gnueabihf/.] ==> [/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/include/c++/9.1.0/arm-linux-gnueabihf]
+  collapse include dir [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/include/c++/9.1.0/backward] ==> [/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/include/c++/9.1.0/backward]
+  collapse include dir [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/include] ==> [/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/include]
+  collapse include dir [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/include-fixed] ==> [/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/include-fixed]
+  collapse include dir [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/include] ==> [/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/include]
+  collapse include dir [/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/include] ==> [/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include]
+  implicit include dirs: [/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/include/c++/9.1.0;/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/include/c++/9.1.0/arm-linux-gnueabihf;/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/include/c++/9.1.0/backward;/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/include;/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/include-fixed;/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/include;/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_46db0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_46db0.dir/build.make CMakeFiles/cmTC_46db0.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_46db0.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-g++   -v -o CMakeFiles/cmTC_46db0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-g++]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: '/home/meng/toolchain/build/snapshots/gcc.git~gcc-9_1_0-release/configure' SHELL=/bin/bash --with-mpc=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-fpu=vfpv3-d16 --with-mode=thumb --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-build-sysroot=/home/meng/toolchain/build/sysroots/arm-linux-gnueabihf --with-sysroot=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=yes --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.1.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_46db0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp']
+  ignore line: [ /opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/cc1plus -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf -iprefix /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/ -isysroot /opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mfloat-abi=hard -mfpu=vfpv3-d16 -mthumb -mtls-dialect=gnu -march=armv7-a+fp -auxbase-strip CMakeFiles/cmTC_46db0.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccauhyZB.s]
+  ignore line: [GNU C++14 (GCC) version 9.1.0 (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 5.4.0 20160609  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.3  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096]
+  ignore line: [ignoring duplicate directory "/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/include/c++/9.1.0"]
+  ignore line: [ignoring duplicate directory "/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/include/c++/9.1.0/arm-linux-gnueabihf/."]
+  ignore line: [ignoring duplicate directory "/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/include/c++/9.1.0/backward"]
+  ignore line: [ignoring duplicate directory "/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/9.1.0/include"]
+  ignore line: [ignoring nonexistent directory "/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/local/include/arm-linux-gnueabihf"]
+  ignore line: [ignoring nonexistent directory "/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/9.1.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/include"]
+  ignore line: [ignoring nonexistent directory "/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/include/c++/9.1.0]
+  ignore line: [ /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/include/c++/9.1.0/arm-linux-gnueabihf/.]
+  ignore line: [ /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/include/c++/9.1.0/backward]
+  ignore line: [ /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/include]
+  ignore line: [ /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/include-fixed]
+  ignore line: [ /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/include]
+  ignore line: [ /opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 9.1.0 (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 5.4.0 20160609  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.3  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096]
+  ignore line: [Compiler executable checksum: a0a4ce6af32138726b490c28d3d49e46]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_46db0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp']
+  ignore line: [ /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -meabi=5 -o CMakeFiles/cmTC_46db0.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccauhyZB.s]
+  ignore line: [GNU assembler version 2.33 (arm-linux-gnueabihf) using BFD version (Linaro_Binutils-2020.07.23) 2.33]
+  ignore line: [COMPILER_PATH=/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/:/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/:/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/lib/:/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/lib/:/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_46db0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp']
+  ignore line: [Linking CXX executable cmTC_46db0]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46db0.dir/link.txt --verbose=1]
+  ignore line: [/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-g++  -v -rdynamic CMakeFiles/cmTC_46db0.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_46db0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: '/home/meng/toolchain/build/snapshots/gcc.git~gcc-9_1_0-release/configure' SHELL=/bin/bash --with-mpc=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-fpu=vfpv3-d16 --with-mode=thumb --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-build-sysroot=/home/meng/toolchain/build/sysroots/arm-linux-gnueabihf --with-sysroot=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=yes --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/meng/toolchain/build/builds/destdir/x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.1.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/:/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/:/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/:/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/lib/:/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/lib/:/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_46db0' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp']
+  link line: [ /opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/collect2 -plugin /opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/liblto_plugin.so -plugin-opt=/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXDwsH6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_46db0 /opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/crtbegin.o -L/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0 -L/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf -L/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc -L/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/lib -L/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/lib -L/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_46db0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/crtend.o /opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o]
+    arg [/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/gcc-sigmastar-9.1.0/bin/../libexec/gcc/arm-linux-gnueabihf/9.1.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccXDwsH6.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_46db0] ==> ignore
+    arg [/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o] ==> obj [/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o]
+    arg [/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o] ==> obj [/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o]
+    arg [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/crtbegin.o] ==> obj [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/crtbegin.o]
+    arg [-L/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0] ==> dir [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0]
+    arg [-L/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf] ==> dir [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf]
+    arg [-L/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc] ==> dir [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc]
+    arg [-L/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/lib] ==> dir [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/lib]
+    arg [-L/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/lib] ==> dir [/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/lib]
+    arg [-L/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> dir [/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib]
+    arg [CMakeFiles/cmTC_46db0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/crtend.o] ==> obj [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/crtend.o]
+    arg [/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o] ==> obj [/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o]
+  collapse obj [/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o] ==> [/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/lib/crt1.o]
+  collapse obj [/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o] ==> [/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/lib/crti.o]
+  collapse obj [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/crtbegin.o] ==> [/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/crtbegin.o]
+  collapse obj [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/crtend.o] ==> [/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/crtend.o]
+  collapse obj [/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o] ==> [/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/lib/crtn.o]
+  collapse library dir [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0] ==> [/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0]
+  collapse library dir [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf] ==> [/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf]
+  collapse library dir [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc] ==> [/opt/gcc-sigmastar-9.1.0/lib/gcc]
+  collapse library dir [/opt/gcc-sigmastar-9.1.0/bin/../lib/gcc/arm-linux-gnueabihf/9.1.0/../../../../arm-linux-gnueabihf/lib] ==> [/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/lib]
+  collapse library dir [/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/lib] ==> [/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/lib]
+  collapse library dir [/opt/gcc-sigmastar-9.1.0/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> [/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/lib/crt1.o;/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/lib/crti.o;/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/crtbegin.o;/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/crtend.o;/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/lib/crtn.o]
+  implicit dirs: [/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0;/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf;/opt/gcc-sigmastar-9.1.0/lib/gcc;/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/lib;/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/lib;/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/lib]
+  implicit fwks: []
+
+
+Determining if files assert.h exist passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c5d33/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c5d33.dir/build.make CMakeFiles/cmTC_c5d33.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5d33.dir/HAVE_ASSERT_H.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_c5d33.dir/HAVE_ASSERT_H.c.o -c /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CheckIncludeFiles/HAVE_ASSERT_H.c
+Linking C executable cmTC_c5d33
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5d33.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc -rdynamic CMakeFiles/cmTC_c5d33.dir/HAVE_ASSERT_H.c.o -o cmTC_c5d33 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files byteswap.h exist passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_79be3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_79be3.dir/build.make CMakeFiles/cmTC_79be3.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79be3.dir/HAVE_BYTESWAP_H.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_79be3.dir/HAVE_BYTESWAP_H.c.o -c /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CheckIncludeFiles/HAVE_BYTESWAP_H.c
+Linking C executable cmTC_79be3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79be3.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc -rdynamic CMakeFiles/cmTC_79be3.dir/HAVE_BYTESWAP_H.c.o -o cmTC_79be3 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files ctype.h exist passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_29f53/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_29f53.dir/build.make CMakeFiles/cmTC_29f53.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29f53.dir/HAVE_CTYPE_H.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_29f53.dir/HAVE_CTYPE_H.c.o -c /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CheckIncludeFiles/HAVE_CTYPE_H.c
+Linking C executable cmTC_29f53
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29f53.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc -rdynamic CMakeFiles/cmTC_29f53.dir/HAVE_CTYPE_H.c.o -o cmTC_29f53 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files dlfcn.h exist passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_46bb9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_46bb9.dir/build.make CMakeFiles/cmTC_46bb9.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_46bb9.dir/HAVE_DLFCN_H.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_46bb9.dir/HAVE_DLFCN_H.c.o -c /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CheckIncludeFiles/HAVE_DLFCN_H.c
+Linking C executable cmTC_46bb9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46bb9.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc -rdynamic CMakeFiles/cmTC_46bb9.dir/HAVE_DLFCN_H.c.o -o cmTC_46bb9 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files endian.h exist passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fea25/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fea25.dir/build.make CMakeFiles/cmTC_fea25.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fea25.dir/HAVE_ENDIAN_H.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_fea25.dir/HAVE_ENDIAN_H.c.o -c /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CheckIncludeFiles/HAVE_ENDIAN_H.c
+Linking C executable cmTC_fea25
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fea25.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc -rdynamic CMakeFiles/cmTC_fea25.dir/HAVE_ENDIAN_H.c.o -o cmTC_fea25 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f449d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f449d.dir/build.make CMakeFiles/cmTC_f449d.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f449d.dir/HAVE_INTTYPES_H.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_f449d.dir/HAVE_INTTYPES_H.c.o -c /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CheckIncludeFiles/HAVE_INTTYPES_H.c
+Linking C executable cmTC_f449d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f449d.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc -rdynamic CMakeFiles/cmTC_f449d.dir/HAVE_INTTYPES_H.c.o -o cmTC_f449d 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files memory.h exist passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_334d4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_334d4.dir/build.make CMakeFiles/cmTC_334d4.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_334d4.dir/HAVE_MEMORY_H.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_334d4.dir/HAVE_MEMORY_H.c.o -c /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CheckIncludeFiles/HAVE_MEMORY_H.c
+Linking C executable cmTC_334d4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_334d4.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc -rdynamic CMakeFiles/cmTC_334d4.dir/HAVE_MEMORY_H.c.o -o cmTC_334d4 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_763be/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_763be.dir/build.make CMakeFiles/cmTC_763be.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_763be.dir/HAVE_PTHREAD_H.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_763be.dir/HAVE_PTHREAD_H.c.o -c /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CheckIncludeFiles/HAVE_PTHREAD_H.c
+Linking C executable cmTC_763be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_763be.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc -rdynamic CMakeFiles/cmTC_763be.dir/HAVE_PTHREAD_H.c.o -o cmTC_763be 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_00326/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_00326.dir/build.make CMakeFiles/cmTC_00326.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_00326.dir/HAVE_STDINT_H.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_00326.dir/HAVE_STDINT_H.c.o -c /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CheckIncludeFiles/HAVE_STDINT_H.c
+Linking C executable cmTC_00326
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00326.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc -rdynamic CMakeFiles/cmTC_00326.dir/HAVE_STDINT_H.c.o -o cmTC_00326 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d742b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d742b.dir/build.make CMakeFiles/cmTC_d742b.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d742b.dir/HAVE_STDLIB_H.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_d742b.dir/HAVE_STDLIB_H.c.o -c /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CheckIncludeFiles/HAVE_STDLIB_H.c
+Linking C executable cmTC_d742b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d742b.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc -rdynamic CMakeFiles/cmTC_d742b.dir/HAVE_STDLIB_H.c.o -o cmTC_d742b 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aa95c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aa95c.dir/build.make CMakeFiles/cmTC_aa95c.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aa95c.dir/HAVE_STRINGS_H.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_aa95c.dir/HAVE_STRINGS_H.c.o -c /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CheckIncludeFiles/HAVE_STRINGS_H.c
+Linking C executable cmTC_aa95c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa95c.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc -rdynamic CMakeFiles/cmTC_aa95c.dir/HAVE_STRINGS_H.c.o -o cmTC_aa95c 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files string.h exist passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e5924/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e5924.dir/build.make CMakeFiles/cmTC_e5924.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e5924.dir/HAVE_STRING_H.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_e5924.dir/HAVE_STRING_H.c.o -c /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CheckIncludeFiles/HAVE_STRING_H.c
+Linking C executable cmTC_e5924
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5924.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc -rdynamic CMakeFiles/cmTC_e5924.dir/HAVE_STRING_H.c.o -o cmTC_e5924 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d85aa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d85aa.dir/build.make CMakeFiles/cmTC_d85aa.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d85aa.dir/HAVE_SYS_STAT_H.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_d85aa.dir/HAVE_SYS_STAT_H.c.o -c /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_STAT_H.c
+Linking C executable cmTC_d85aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d85aa.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc -rdynamic CMakeFiles/cmTC_d85aa.dir/HAVE_SYS_STAT_H.c.o -o cmTC_d85aa 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ca975/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ca975.dir/build.make CMakeFiles/cmTC_ca975.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca975.dir/HAVE_SYS_TYPES_H.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_ca975.dir/HAVE_SYS_TYPES_H.c.o -c /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_TYPES_H.c
+Linking C executable cmTC_ca975
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca975.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc -rdynamic CMakeFiles/cmTC_ca975.dir/HAVE_SYS_TYPES_H.c.o -o cmTC_ca975 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files time.h exist passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c0c2d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c0c2d.dir/build.make CMakeFiles/cmTC_c0c2d.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c0c2d.dir/HAVE_TIME_H.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_c0c2d.dir/HAVE_TIME_H.c.o -c /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CheckIncludeFiles/HAVE_TIME_H.c
+Linking C executable cmTC_c0c2d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0c2d.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc -rdynamic CMakeFiles/cmTC_c0c2d.dir/HAVE_TIME_H.c.o -o cmTC_c0c2d 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_515af/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_515af.dir/build.make CMakeFiles/cmTC_515af.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_515af.dir/HAVE_UNISTD_H.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_515af.dir/HAVE_UNISTD_H.c.o -c /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CheckIncludeFiles/HAVE_UNISTD_H.c
+Linking C executable cmTC_515af
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_515af.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc -rdynamic CMakeFiles/cmTC_515af.dir/HAVE_UNISTD_H.c.o -o cmTC_515af 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files wctype.h exist passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_54f80/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_54f80.dir/build.make CMakeFiles/cmTC_54f80.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_54f80.dir/HAVE_WCTYPE_H.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_54f80.dir/HAVE_WCTYPE_H.c.o -c /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CheckIncludeFiles/HAVE_WCTYPE_H.c
+Linking C executable cmTC_54f80
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54f80.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc -rdynamic CMakeFiles/cmTC_54f80.dir/HAVE_WCTYPE_H.c.o -o cmTC_54f80 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function backtrace exists passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3a6fb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3a6fb.dir/build.make CMakeFiles/cmTC_3a6fb.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3a6fb.dir/CheckFunctionExists.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc   -DCHECK_FUNCTION_EXISTS=backtrace -o CMakeFiles/cmTC_3a6fb.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3a6fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a6fb.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc  -DCHECK_FUNCTION_EXISTS=backtrace -rdynamic CMakeFiles/cmTC_3a6fb.dir/CheckFunctionExists.c.o -o cmTC_3a6fb 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function gmtime_r exists passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_12910/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_12910.dir/build.make CMakeFiles/cmTC_12910.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12910.dir/CheckFunctionExists.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc   -DCHECK_FUNCTION_EXISTS=gmtime_r -o CMakeFiles/cmTC_12910.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_12910
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12910.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc  -DCHECK_FUNCTION_EXISTS=gmtime_r -rdynamic CMakeFiles/cmTC_12910.dir/CheckFunctionExists.c.o -o cmTC_12910 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function isspace exists passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1bbd4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1bbd4.dir/build.make CMakeFiles/cmTC_1bbd4.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1bbd4.dir/CheckFunctionExists.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc   -DCHECK_FUNCTION_EXISTS=isspace -o CMakeFiles/cmTC_1bbd4.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘isspace’; expected ‘int(int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:1:1: note: ‘isspace’ is declared in header ‘<ctype.h>’
+  +++ |+#include <ctype.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_1bbd4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bbd4.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc  -DCHECK_FUNCTION_EXISTS=isspace -rdynamic CMakeFiles/cmTC_1bbd4.dir/CheckFunctionExists.c.o -o cmTC_1bbd4 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function iswspace exists passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_10228/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_10228.dir/build.make CMakeFiles/cmTC_10228.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10228.dir/CheckFunctionExists.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc   -DCHECK_FUNCTION_EXISTS=iswspace -o CMakeFiles/cmTC_10228.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘iswspace’; expected ‘int(unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:1:1: note: ‘iswspace’ is declared in header ‘<wctype.h>’
+  +++ |+#include <wctype.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_10228
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10228.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc  -DCHECK_FUNCTION_EXISTS=iswspace -rdynamic CMakeFiles/cmTC_10228.dir/CheckFunctionExists.c.o -o cmTC_10228 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function setenv exists passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_31576/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_31576.dir/build.make CMakeFiles/cmTC_31576.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31576.dir/CheckFunctionExists.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc   -DCHECK_FUNCTION_EXISTS=setenv -o CMakeFiles/cmTC_31576.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_31576
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31576.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc  -DCHECK_FUNCTION_EXISTS=setenv -rdynamic CMakeFiles/cmTC_31576.dir/CheckFunctionExists.c.o -o cmTC_31576 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function snprintf exists passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d0077/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d0077.dir/build.make CMakeFiles/cmTC_d0077.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d0077.dir/CheckFunctionExists.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc   -DCHECK_FUNCTION_EXISTS=snprintf -o CMakeFiles/cmTC_d0077.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘snprintf’; expected ‘int(char *, unsigned int,  const char *, ...)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:1:1: note: ‘snprintf’ is declared in header ‘<stdio.h>’
+  +++ |+#include <stdio.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_d0077
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0077.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc  -DCHECK_FUNCTION_EXISTS=snprintf -rdynamic CMakeFiles/cmTC_d0077.dir/CheckFunctionExists.c.o -o cmTC_d0077 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strdup exists passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b0481/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b0481.dir/build.make CMakeFiles/cmTC_b0481.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0481.dir/CheckFunctionExists.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc   -DCHECK_FUNCTION_EXISTS=strdup -o CMakeFiles/cmTC_b0481.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘strdup’; expected ‘char *(const char *)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_b0481
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0481.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc  -DCHECK_FUNCTION_EXISTS=strdup -rdynamic CMakeFiles/cmTC_b0481.dir/CheckFunctionExists.c.o -o cmTC_b0481 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function unsetenv exists passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7c1ab/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7c1ab.dir/build.make CMakeFiles/cmTC_7c1ab.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7c1ab.dir/CheckFunctionExists.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc   -DCHECK_FUNCTION_EXISTS=unsetenv -o CMakeFiles/cmTC_7c1ab.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7c1ab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c1ab.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc  -DCHECK_FUNCTION_EXISTS=unsetenv -rdynamic CMakeFiles/cmTC_7c1ab.dir/CheckFunctionExists.c.o -o cmTC_7c1ab 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b5edb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b5edb.dir/build.make CMakeFiles/cmTC_b5edb.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5edb.dir/CheckIncludeFile.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_b5edb.dir/CheckIncludeFile.c.o -c /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b5edb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5edb.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc -rdynamic CMakeFiles/cmTC_b5edb.dir/CheckIncludeFile.c.o -o cmTC_b5edb 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of mode_t passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e5262/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e5262.dir/build.make CMakeFiles/cmTC_e5262.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e5262.dir/SIZEOF_MODE_T.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_e5262.dir/SIZEOF_MODE_T.c.o -c /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CheckTypeSize/SIZEOF_MODE_T.c
+Linking C executable cmTC_e5262
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5262.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc -rdynamic CMakeFiles/cmTC_e5262.dir/SIZEOF_MODE_T.c.o -o cmTC_e5262 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_81d52/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_81d52.dir/build.make CMakeFiles/cmTC_81d52.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_81d52.dir/SIZEOF_SIZE_T.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_81d52.dir/SIZEOF_SIZE_T.c.o -c /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTC_81d52
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81d52.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc -rdynamic CMakeFiles/cmTC_81d52.dir/SIZEOF_SIZE_T.c.o -o cmTC_81d52 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of intptr_t passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9edbd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9edbd.dir/build.make CMakeFiles/cmTC_9edbd.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9edbd.dir/INTPTR_T.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_9edbd.dir/INTPTR_T.c.o -c /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CheckTypeSize/INTPTR_T.c
+Linking C executable cmTC_9edbd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9edbd.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc -rdynamic CMakeFiles/cmTC_9edbd.dir/INTPTR_T.c.o -o cmTC_9edbd 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of pid_t passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_762e9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_762e9.dir/build.make CMakeFiles/cmTC_762e9.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_762e9.dir/HAVE_PID_T.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_762e9.dir/HAVE_PID_T.c.o -c /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CheckTypeSize/HAVE_PID_T.c
+Linking C executable cmTC_762e9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_762e9.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc -rdynamic CMakeFiles/cmTC_762e9.dir/HAVE_PID_T.c.o -o cmTC_762e9 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of time_t passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f2886/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f2886.dir/build.make CMakeFiles/cmTC_f2886.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2886.dir/SIZEOF_TIME_T.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_f2886.dir/SIZEOF_TIME_T.c.o -c /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CheckTypeSize/SIZEOF_TIME_T.c
+Linking C executable cmTC_f2886
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2886.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc -rdynamic CMakeFiles/cmTC_f2886.dir/SIZEOF_TIME_T.c.o -o cmTC_f2886 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b8282/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b8282.dir/build.make CMakeFiles/cmTC_b8282.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b8282.dir/CheckIncludeFile.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_b8282.dir/CheckIncludeFile.c.o -c /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b8282
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8282.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc -rdynamic CMakeFiles/cmTC_b8282.dir/CheckIncludeFile.c.o -o cmTC_b8282 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_26783/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_26783.dir/build.make CMakeFiles/cmTC_26783.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26783.dir/CheckFunctionExists.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_26783.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_26783
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26783.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_26783.dir/CheckFunctionExists.c.o -o cmTC_26783  -lpthread 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_getattr_np exists in the pthread passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2e7d6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2e7d6.dir/build.make CMakeFiles/cmTC_2e7d6.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2e7d6.dir/CheckFunctionExists.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc   -DCHECK_FUNCTION_EXISTS=pthread_getattr_np -o CMakeFiles/cmTC_2e7d6.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2e7d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e7d6.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc  -DCHECK_FUNCTION_EXISTS=pthread_getattr_np -rdynamic CMakeFiles/cmTC_2e7d6.dir/CheckFunctionExists.c.o -o cmTC_2e7d6  -lpthread 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_28cfa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_28cfa.dir/build.make CMakeFiles/cmTC_28cfa.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28cfa.dir/CheckFunctionExists.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_28cfa.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_28cfa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28cfa.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_28cfa.dir/CheckFunctionExists.c.o -o cmTC_28cfa  -lpthread 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_GCC_UNUSED_BUT_SET succeeded with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a706f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a706f.dir/build.make CMakeFiles/cmTC_a706f.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a706f.dir/src.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc -DHAVE_GCC_UNUSED_BUT_SET  -Wunused-but-set-variable -o CMakeFiles/cmTC_a706f.dir/src.c.o -c /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a706f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a706f.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc -rdynamic CMakeFiles/cmTC_a706f.dir/src.c.o -o cmTC_a706f 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_LOGICAL_OP succeeded with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_191c5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_191c5.dir/build.make CMakeFiles/cmTC_191c5.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_191c5.dir/src.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc -DHAVE_GCC_LOGICAL_OP  -Wlogical-op -o CMakeFiles/cmTC_191c5.dir/src.c.o -c /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_191c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_191c5.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc -rdynamic CMakeFiles/cmTC_191c5.dir/src.c.o -o cmTC_191c5 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_POINTER_MEMACCESS succeeded with the following output:
+Change Dir: /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f5e74/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f5e74.dir/build.make CMakeFiles/cmTC_f5e74.dir/build
+gmake[1]: Entering directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f5e74.dir/src.c.o
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc -DHAVE_GCC_POINTER_MEMACCESS  -Wsizeof-pointer-memaccess -o CMakeFiles/cmTC_f5e74.dir/src.c.o -c /home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f5e74
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5e74.dir/link.txt --verbose=1
+/opt/gcc-sigmastar-9.1.0/bin/arm-linux-gnueabihf-gcc -rdynamic CMakeFiles/cmTC_f5e74.dir/src.c.o -o cmTC_f5e74 
+gmake[1]: Leaving directory '/home/icrad/project/bluetoothZ/3rd/libical-1.0.1/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }

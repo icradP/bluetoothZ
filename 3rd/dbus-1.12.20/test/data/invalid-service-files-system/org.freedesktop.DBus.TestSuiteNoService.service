@@ -1,0 +1,4 @@
+[D-BUS Service]
+Exec=/home/icrad/project/bluetoothZ/3rd/dbus-1.12.20/test/test-service
+User=anyrandomuser
+

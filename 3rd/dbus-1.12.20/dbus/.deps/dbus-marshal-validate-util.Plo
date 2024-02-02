@@ -1,0 +1,7 @@
+dbus-marshal-validate-util.lo: dbus-marshal-validate-util.c \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h \
+ ../config.h
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h:
+
+../config.h:

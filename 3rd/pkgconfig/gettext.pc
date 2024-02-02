@@ -1,0 +1,11 @@
+prefix=/home/icrad/project/bluetoothZ/3rd/gettext-0.22.4/build/
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=${prefix}/include
+
+Name: gettext
+Description: This package offers to programmers, translators, and even users, a well integrated set of tools and documentation.
+Version: 0.22.4
+Libs: -L${toolexeclibdir} -lgettext
+Cflags: -I${includedir}

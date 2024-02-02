@@ -1,0 +1,10 @@
+[Unit]
+Description=Bluetooth OBEX service
+
+[Service]
+Type=dbus
+BusName=org.bluez.obex
+ExecStart=/home/icrad/project/bluetoothZ/3rd/bluez-5.66/build/libexec/bluetooth/obexd
+
+[Install]
+Alias=dbus-org.bluez.obex.service

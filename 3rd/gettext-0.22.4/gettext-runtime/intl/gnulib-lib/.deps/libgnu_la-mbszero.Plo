@@ -1,0 +1,88 @@
+libgnu_la-mbszero.lo: mbszero.c \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h \
+ ../config.h \
+ /opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/include/stdbool.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/assert.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/features.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/sys/cdefs.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/wordsize.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/long-double.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/gnu/stubs.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/gnu/stubs-hard.h \
+ wchar.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/wchar.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/libc-header-start.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/floatn.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/floatn-common.h \
+ stddef.h \
+ /opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/include/stddef.h \
+ /opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/include/stdarg.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/wchar.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/wint_t.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/mbstate_t.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/__mbstate_t.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/__FILE.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/FILE.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/locale_t.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/__locale_t.h \
+ string.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/string.h \
+ /opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/strings.h
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h:
+
+../config.h:
+
+/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/include/stdbool.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/assert.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/features.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/sys/cdefs.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/wordsize.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/long-double.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/gnu/stubs.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/gnu/stubs-hard.h:
+
+wchar.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/wchar.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/libc-header-start.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/floatn.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/floatn-common.h:
+
+stddef.h:
+
+/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/include/stddef.h:
+
+/opt/gcc-sigmastar-9.1.0/lib/gcc/arm-linux-gnueabihf/9.1.0/include/stdarg.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/wchar.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/wint_t.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/mbstate_t.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/__mbstate_t.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/__FILE.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/FILE.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/locale_t.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/bits/types/__locale_t.h:
+
+string.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/string.h:
+
+/opt/gcc-sigmastar-9.1.0/arm-linux-gnueabihf/libc/usr/include/strings.h:

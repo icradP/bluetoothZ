@@ -1,0 +1,5 @@
+[D-BUS Service]
+Name=org.freedesktop.DBus.TestSuiteSegfaultService
+Exec=/home/icrad/project/bluetoothZ/3rd/dbus-1.12.20/test/test-segfault
+User=anyrandomuser
+

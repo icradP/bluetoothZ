@@ -1,0 +1,11 @@
+prefix=/home/icrad/project/bluetoothZ/3rd/readline-7.0/build
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=${prefix}/include
+
+Name: libreadline
+Description: Library supporting readline
+Version: 7.0
+Libs: -L${toolexeclibdir} -lreadline
+Cflags: -I${includedir}

@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=org.freedesktop.DBus.TestSuiteShellEchoServiceSuccess
+Exec=/home/icrad/project/bluetoothZ/3rd/dbus-1.12.20/test/test-shell-service -test "that" 'we get' back --what "we put in"
+

@@ -1,0 +1,11 @@
+prefix=/home/icrad/project/bluetoothZ/3rd/ncurses-6.2/build
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=${prefix}/include
+
+Name: libncurses
+Description: It uses terminfo format,  supports  pads  and  color  and multiple highlights and forms characters and function-key mapping, and has all the other SVr4-curses enhancements  over  BSD curses. SVr4 curses became the basis of X/Open Curses.
+Version: 6.2
+Libs: -L${toolexeclibdir} -lncurses
+Cflags: -I${includedir}

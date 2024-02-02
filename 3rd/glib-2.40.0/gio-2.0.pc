@@ -1,0 +1,18 @@
+prefix=/home/icrad/project/bluetoothZ/3rd/glib-2.40.0/build
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+giomoduledir=${libdir}/gio/modules
+glib_compile_schemas=glib-compile-schemas
+glib_compile_resources=glib-compile-resources
+gdbus_codegen=gdbus-codegen
+
+Name: GIO
+Description: glib I/O library
+Version: 2.40.0
+Requires: glib-2.0 gobject-2.0
+Requires.private: gmodule-no-export-2.0
+Libs: -L${libdir} -lgio-2.0
+Libs.private: -lz -L/home/icrad/project/bluetoothZ/3rd/zlib-1.3.1/build/lib -lresolv  
+Cflags:

@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=org.freedesktop.DBus.TestSuite.PrivServer
+Exec=/home/icrad/project/bluetoothZ/3rd/dbus-1.12.20/test/name-test/test-privserver
+
